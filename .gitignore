@@ -1,0 +1,14 @@
+#Svelte
+terraria-world-share/node_modules/
+terraria-world-share/public/build/
+
+terraria-world-share/.DS_Store
+
+#AWS CDK
+cdk-infrastructure/*.js
+cdk-infrastructure/*.d.ts
+cdk-infrastructure/node_modules
+
+# CDK asset staging directory
+cdk-infrastructure/.cdk.staging
+cdk-infrastructure/cdk.out
