@@ -5,7 +5,7 @@
 </script>
 
 <main style="background-image:url({url})">
-	<ul>
+	<ul class="menu-list">
 		<li>Download World</li>
 		<li>Upload World</li>
 		<li>Todos</li>
@@ -18,5 +18,21 @@
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 		height: 100%;
+	}
+
+	@font-face {
+		font-family: andy;
+		src: url("/fonts/andyb.TTF")
+	}
+
+	.menu-list {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		font-family: andy;
 	}
 </style>
