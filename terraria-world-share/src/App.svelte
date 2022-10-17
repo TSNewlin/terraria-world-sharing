@@ -1,11 +1,14 @@
 <script>
-	const url = "/images/forest.png"
+	const backgrounds = ["corruption", "crimson", "forest", "hallow", "jungle", "mountain", "mushroom"];
+	const randBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+	const url = `/images/${randBackground}.png`;
 </script>
 
 <main style="background-image:url({url})">
 	<ul>
-		<li>Download</li>
-		<li>Upload</li>
+		<li>Download World</li>
+		<li>Upload World</li>
+		<li>Todos</li>
 		<li>Terraria Wiki</li>
 	</ul>
 </main>
