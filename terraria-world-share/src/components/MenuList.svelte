@@ -43,5 +43,6 @@
         color: #ffd700;
         font-size: 4rem;
         -webkit-text-stroke: 2px black;
+        cursor: pointer;
     }
 </style>
