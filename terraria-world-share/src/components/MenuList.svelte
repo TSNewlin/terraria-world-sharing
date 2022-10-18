@@ -4,7 +4,7 @@
     <li>Download World</li>
     <li>Upload World</li>
     <li>Todos</li>
-    <li>Terraria Wiki</li>
+    <li><a href="https://terraria.wiki.gg/wiki/Terraria_Wiki" target="#">Terraria Wiki</a></li>
 </ul>
 
 <style>
@@ -30,6 +30,13 @@
     .menu-list > li {
         transition: 0.2s;
         padding: 10px;
+    }
+
+    .menu-list > li > a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        -webkit-text-stroke: inherit;
     }
 
     .menu-list > li:hover {
