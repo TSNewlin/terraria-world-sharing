@@ -1,8 +1,17 @@
 <div class="sun-wrapper">
     <img class="sun" src="/images/sun.png" alt="sun" />
+    <div class="moon" title="Moon"></div>
 </div>
 
+
 <style>
+
+    .moon{
+        background: url('/images/Moon-Sprite-Sheet.png') no-repeat -2px -2px;
+        width: 50px;
+        height: 50px;
+    }
+
 
     .sun{
         width: 50px;
