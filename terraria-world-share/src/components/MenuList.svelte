@@ -22,6 +22,7 @@
 		align-items: center;
 		flex-direction: column;
 		font-family: andy;
+        white-space: nowrap;
         font-size: 3rem;
         color: #909194;
         -webkit-text-stroke: 1.5px black;
